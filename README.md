@@ -4,19 +4,6 @@ An internship machine learning project that analyzes ~15 years of historical **T
 
 This repository contains the project Jupyter Notebook (`STOCK_PRICE_TREND_PREDICTION__code.ipynb`), the project presentation (`Stock_Price_Trend_Prediction.pptx`), and extracted exploratory/evaluation visualizations.
 
----
-
-## Team Members
-
-| Name | Roll Number |
-| :--- | :--- |
-| **J. Janardhan** | `22091A3248` |
-| **P. Venkata Swathi** | `22091A32G7` |
-| **M. Abdul Sharif** | `22091A3202` |
-| **S. Keshava Rao** | `22091A3259` |
-| **B. Jagan Mohan Reddy** | `22091A3245` |
-
----
 
 ## Repository Structure
 
