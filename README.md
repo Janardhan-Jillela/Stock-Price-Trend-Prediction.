@@ -1,6 +1,6 @@
 # Stock Price Trend Prediction (TSLA)
 
-An internship machine learning project that analyzes ~15 years of historical **Tesla Inc. (TSLA)** daily stock market data (2010–2025) and predicts whether the next day's closing price will move **Up (`1`)** or **Down/Same (`0`)**.
+An internship machine learning project that analyzes historical **Tesla Inc. (TSLA)** daily stock market data (2010–2023) and predicts whether the next day's closing price will move **Up (`1`)** or **Down/Same (`0`)**.
 
 This repository contains the project Jupyter Notebook (`STOCK_PRICE_TREND_PREDICTION__code.ipynb`), the historical dataset (`TSLA dataset.csv`), the project presentation (`Stock_Price_Trend_Prediction.pptx`), and extracted exploratory/evaluation visualizations.
 
@@ -32,8 +32,8 @@ Stock markets are highly volatile and influenced by numerous market factors. The
 ## Dataset Description
 
 - **Company**: Tesla Inc. (`TSLA`)
-- **Repository Dataset (`TSLA dataset.csv`)**: `3,162` daily trading records spanning **June 29, 2010 – January 19, 2023**.
-- **Saved Notebook Output & Presentation Scope**: The saved outputs in the notebook and slides (`Stock_Price_Trend_Prediction.pptx`) reflect an extended `3,680`-row version of the dataset spanning **June 29, 2010 – February 13, 2025** *(referenced as `TSLA_2010-06-29_2025-02-13.csv` in the presentation)*.
+- **Date Range**: June 29, 2010 – January 19, 2023 (`3,162` daily trading records in `TSLA dataset.csv`)
+- **Notebook & Presentation Note**: Re-running `STOCK_PRICE_TREND_PREDICTION__code.ipynb` uses the included `TSLA dataset.csv` (2010–2023); the pre-saved cell outputs and `Stock_Price_Trend_Prediction.pptx` reflect a `3,680`-row snapshot.
 
 | Column | Description |
 | :--- | :--- |
@@ -83,7 +83,7 @@ Derived two intraday price-action features alongside the five base market attrib
 
 ### Key Visualizations
 
-| Tesla Close Price Over Time (2010–2025) | Proportion of Stock Movement Directions |
+| Tesla Close Price Over Time | Proportion of Stock Movement Directions |
 | :---: | :---: |
 | ![Tesla Close Price Over Time](assets/tsla_close_price_over_time.png) | ![Proportion of Stock Movement Directions](assets/movement_proportion_pie.png) |
 
