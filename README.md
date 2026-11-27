@@ -2,7 +2,7 @@
 
 An internship machine learning project that analyzes ~15 years of historical **Tesla Inc. (TSLA)** daily stock market data (2010–2025) and predicts whether the next day's closing price will move **Up (`1`)** or **Down/Same (`0`)**.
 
-This repository contains the project Jupyter Notebook (`STOCK_PRICE_TREND_PREDICTION__code.ipynb`), the project presentation (`Stock_Price_Trend_Prediction.pptx`), and extracted exploratory/evaluation visualizations.
+This repository contains the project Jupyter Notebook (`STOCK_PRICE_TREND_PREDICTION__code.ipynb`), the historical dataset (`TSLA dataset.csv`), the project presentation (`Stock_Price_Trend_Prediction.pptx`), and extracted exploratory/evaluation visualizations.
 
 
 ## Repository Structure
@@ -10,6 +10,7 @@ This repository contains the project Jupyter Notebook (`STOCK_PRICE_TREND_PREDIC
 ```text
 Stock-Price-Trend-Prediction/
 ├── STOCK_PRICE_TREND_PREDICTION__code.ipynb   # Main Jupyter Notebook (EDA, preprocessing, modeling, plots)
+├── TSLA dataset.csv                           # Historical Tesla (TSLA) daily OHLCV dataset
 ├── Stock_Price_Trend_Prediction.pptx          # Project presentation slides
 ├── assets/                                    # Visualizations generated from the notebook
 ├── requirements.txt                           # Python dependencies
@@ -31,8 +32,8 @@ Stock markets are highly volatile and influenced by numerous market factors. The
 ## Dataset Description
 
 - **Company**: Tesla Inc. (`TSLA`)
-- **Date Range**: June 29, 2010 – February 13, 2025 (~15 years of daily records; `3,680` raw rows in the loaded CSV)
-- **File Expected by Notebook**: `TSLA dataset.csv` *(referenced as `TSLA_2010-06-29_2025-02-13.csv` in the presentation)*
+- **Repository Dataset (`TSLA dataset.csv`)**: `3,162` daily trading records spanning **June 29, 2010 – January 19, 2023**.
+- **Saved Notebook Output & Presentation Scope**: The saved outputs in the notebook and slides (`Stock_Price_Trend_Prediction.pptx`) reflect an extended `3,680`-row version of the dataset spanning **June 29, 2010 – February 13, 2025** *(referenced as `TSLA_2010-06-29_2025-02-13.csv` in the presentation)*.
 
 | Column | Description |
 | :--- | :--- |
@@ -115,8 +116,8 @@ Derived two intraday price-action features alongside the five base market attrib
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Janardhan-Jillela/Stock-Price-Trend-Prediction.git
-   cd Stock-Price-Trend-Prediction
+   git clone https://github.com/Janardhan-Jillela/Stock-Price-Trend-Prediction..git
+   cd Stock-Price-Trend-Prediction.
    ```
 
 2. **Install dependencies**
@@ -124,10 +125,8 @@ Derived two intraday price-action features alongside the five base market attrib
    pip install -r requirements.txt
    ```
 
-3. **Add the dataset**
-   Place `TSLA dataset.csv` in the project root directory (same folder as `STOCK_PRICE_TREND_PREDICTION__code.ipynb`).
-
-4. **Run the notebook**
+3. **Run the notebook**
+   (`TSLA dataset.csv` is already included in the project root directory.)
    ```bash
    jupyter notebook STOCK_PRICE_TREND_PREDICTION__code.ipynb
    ```
